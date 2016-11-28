@@ -2,7 +2,7 @@
 Change Detection by WisardRP
 
 > Authors: Maurizio Giordano and Massimo De Gregorio
-Institution:  Consiglio Nazionale delle Ricerche (Italy)
+> Institution:  Consiglio Nazionale delle Ricerche (Italy)
 
 ----------------------
 Description
