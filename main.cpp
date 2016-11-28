@@ -185,10 +185,7 @@ int main(int argc,char **argv) {
     string dumpdirname, indirname = ".";
     string gtdirname = ".";
     string roifilename = "./ROI.bmp";
-    string 
-	    
-	    
-	    = "RGB";
+    string colormode = "RGB";
 
     string filtername = "None";
     string postfiltername = "None";
