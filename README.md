@@ -1,5 +1,5 @@
 # CwisardRP
-Change Detection by WisardRP
+Change Detection by Wisard<sup>rp</sup>
 
 > Authors: Maurizio Giordano and Massimo De Gregorio
 Institution: Consiglio Nazionale delle Ricerche (Italy)
