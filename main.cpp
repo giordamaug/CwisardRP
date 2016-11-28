@@ -505,7 +505,7 @@ int main(int argc,char **argv) {
         cout << "Concurrency\t= " << partype << endl;
         cout << "N.Bit \t\t= " << n_bit << endl;
         cout << "Color \t\t= " << colormode << endl;
-        cout << "Scaling tics:\t=" << nt << endl;
+        cout << "Scaling tics:\t= " << nt << endl;
         cout << "Thresholds \t= " << threshold1 << ":" << threshold2 << endl;
         cout << "Start Fr.\t= " << startframe << endl;
         cout << "Stop Fr.\t= " << endframe << endl;
@@ -561,7 +561,7 @@ int main(int argc,char **argv) {
     gettimeofday(&tg2, NULL);
     t_g += (double) (tg2.tv_usec - tg1.tv_usec)/1000000 + (double) (tg2.tv_sec - tg1.tv_sec);
     // load ROI image if stats are enabled
-    if (statsflag) {
+    if (roiflag) {
         roiimg=imread(roifilename, 0);
         if(!roiimg.data ) {
             cout << "Could not load ROI file: " << roifilename << endl;
@@ -595,7 +595,6 @@ int main(int argc,char **argv) {
 #endif
     
     /* TRAIN/CLASSIFY LOOP */
-    
     while(iter <= endframe) {
         gettimeofday(&tg1, NULL);
         filename =  indirname + "/" + dlist[frameindex];
@@ -604,7 +603,7 @@ int main(int argc,char **argv) {
             cout << "Could not load image file: " << dlist[frameindex] << endl;
             exit(0);
         }
-        convert(frame, frame);
+        //convert(frame, frame);
         gettimeofday(&tg2, NULL);
         t_g += (double) (tg2.tv_usec - tg1.tv_usec)/1000000 + (double) (tg2.tv_sec - tg1.tv_sec);
         gettimeofday(&tv1, NULL);
