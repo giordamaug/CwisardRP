@@ -9,7 +9,7 @@ Description
 ----------------------
 
 CwisardRP is a change detection method in video processing based on a weightless neural system, 
-namely WiSARDrp, with the aim of exploiting its features of being highly adaptive and 
+namely WiSARD<sup>rp</sup>, with the aim of exploiting its features of being highly adaptive and 
 noise–tolerance at runtime.
 In CwisardRP, the changing pixel colors in a video are processed by a an incremental 
 learning neural network with a limited-in-time memory-retention mechanism that allow the
