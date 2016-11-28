@@ -185,7 +185,10 @@ int main(int argc,char **argv) {
     string dumpdirname, indirname = ".";
     string gtdirname = ".";
     string roifilename = "./ROI.bmp";
-    string colormode = "RGB";
+    string 
+	    
+	    
+	    = "RGB";
 
     string filtername = "None";
     string postfiltername = "None";
@@ -259,7 +262,7 @@ int main(int argc,char **argv) {
 			cout << "    -q|--dumprange <from>:<to>\t\t: range of frames to dump [startframe:endframe]" << endl;
 			cout << "    -n|--nbits <nbits>\t\t\t: number of bits (positive inteneger upto 64) [16]" << endl;
             cout << "    -z|--scale <ntics>\t\t\t: number of tics in color discretizing (positive inteneger upto 256) [128]" << endl;
-            cout << "    -c|--colormode RGBì|HSV|LAB: set color mode [RGB]" << endl;
+            cout << "    -c|--colormode RGB|HSV|LAB: set color mode [RGB]" << endl;
 			cout << "    -s|--startframe <FrameIdx>\t\t: start frame index [0]" << endl;
 			cout << "    -f|--endframe <FrameIdx>\t\t: end frame index [1000]" << endl;
 			exit(-1);
