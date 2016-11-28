@@ -2,7 +2,7 @@
 Change Detection by WisardRP
 
 > Authors: Maurizio Giordano and Massimo De Gregorio
-> Institution:  Consiglio Nazionale delle Ricerche (Italy)
+Institution: Consiglio Nazionale delle Ricerche (Italy)
 
 ----------------------
 Description
@@ -34,14 +34,14 @@ Compile/Run CwisardRP source (Linux, Mac OSX)
 
 To run the code the following libraries are required:
 
-1. OpenCV 3.0 (later versions may also work)
+1. OpenCV 2.7 (later versions may also work)
 
-2. CMake  3.0  (later version may also work)
+2. CMake  2.8  (later version may also work)
 
-3. C++ Compiler (tested only with GCC 5.x or later versions)
+3. C++ Compiler (tested only with GCC 4.x or later versions)
 
 ```
 $ cmake .
 $ make
-$ cwisard  -P <video-folder>
+$ cwisard -P <video-folder>
 ```
