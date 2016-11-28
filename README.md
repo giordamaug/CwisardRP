@@ -42,8 +42,11 @@ To run the code the following libraries are required:
 
 ```
 $ cmake .
+$ make
+$ cwisard -P <video-folder>
 ```
-If you have a C++ compiler support to OpenMP and you eant to use parallelism
+If you have a C++ compiler supporting  OpenMP and you want to use parallelism
+on multicore:
 ```
 $ cmake . -DUSE_OMP=ON
 $ make
