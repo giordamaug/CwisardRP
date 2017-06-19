@@ -156,7 +156,7 @@ int main(int argc,char **argv) {
     double recall, precision;
     
     // train/classify globals
-    float traindecr=1, trainincr=1;
+    int traindecr=1, trainincr=1;
     stringstream ss;
     string token;
     float threshold2=0.50, response;
